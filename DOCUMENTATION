@@ -75,7 +75,6 @@ BLSTM
 
 6. Let the name of the training file is 'train' and the test file is 'test' and the parameter file is 'parameters'. To train the model on 'train' and then test it on 'test', the following command should be run:
 
-
 python main.py parameters train test
 
 The name of the output file will be 'test_output'
