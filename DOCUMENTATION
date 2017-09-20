@@ -57,7 +57,9 @@ The fifth line should be the cell type of the second level recurrent network whi
 The sixth line should be the number of neurons in the cell of the edit tree classifier network.
 The seventh line should be the number of epochs for training of the network.
 The eighth line should be the batch size for training of the network.
-The ninth line is the divide file factor. For large size data, generating the data matrices (class annotation matrices, applicable edit trees matrices, char vectors matrices etc.) which will be generated while running the code, takes too much time. Due to reduce the time, we fragment the matrices part-by-part and then dump them in the disk and reload part-by-part. For our experiments we kept this value as 2000. It's on user's choice to set this value. Normally set this value in terms of thousands i.e. 1000/2000/3000.
+The ninth line is the divide file factor. For large size data, generating the data matrices (class annotation matrices, applicable edit trees matrices, char vectors matrices etc.) which will be generated while running the code, takes too much time. 
+Due to reduce the time, we fragment the matrices part-by-part and then dump them in the disk and reload part-by-part. For our experiments we kept this value as 2000.
+It's user's choice to set this value. Normally set this value in terms of thousands i.e. 1000/2000/3000.
 
 Content of a sample parameter file will be like below:
 BLSTM
